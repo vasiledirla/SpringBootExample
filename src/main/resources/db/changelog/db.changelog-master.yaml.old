@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: loadData-example
+      author: vasea
+      changes:
+        loadData:
+          columns:
+            - column:
+                name: role_name
+                type: STRING
+            - column:
+                name: description
+                type: STRING
+          encoding: UTF-8
+          file: roles.csv
+          quotchar: "'"
+          separator: ","
+          tableName: role

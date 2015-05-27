@@ -1,0 +1,11 @@
+datasource:
+        database: mysql
+        url: jdbc:mysql://localhost/test_db
+        username: root
+        password:
+        driver-class-name: com.mysql.jdbc.Driver
+
+spring:
+    jpa:
+      hibernate:
+             ddl-auto: verify

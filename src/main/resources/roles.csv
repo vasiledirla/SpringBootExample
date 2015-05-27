@@ -1,0 +1,5 @@
+role_name,description
+GUEST,'Just a text'
+AUTHOR,'this is admin'
+EDITOR,'an article editor'
+ADMIN,'this is like a god'
